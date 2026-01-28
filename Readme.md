@@ -11,7 +11,7 @@ MPC_basic/
 │   ├── DoublePendulum.h         # Double pendulum dynamics
 │   ├── MPC_Controller.h         # MPC control algorithm
 │   ├── Renderer.h               # Console output handler
-│   └── imGuiRendere.h           # GUI to show the current state
+│   └── imGuiRenderer.h           # GUI to show the current state
 │
 ├── src/
 │   ├── main.cpp                 # Application entry point
