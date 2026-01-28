@@ -10,12 +10,16 @@ MPC_basic/
 ├── include/
 │   ├── DoublePendulum.h         # Double pendulum dynamics
 │   ├── MPC_Controller.h         # MPC control algorithm
-│   └── Renderer.h               # Console output handler
+│   ├── Renderer.h               # Console output handler
+│   └── imGuiRendere.h           # GUI to show the current state
+│
 ├── src/
 │   ├── main.cpp                 # Application entry point
 │   ├── DoublePendulum.cpp       # Physics simulation
 │   ├── MPC_Controller.cpp       # MPC implementation
 │   └── Renderer.cpp             # Console output implementation
+│   └── imGuiRenderer.cpp         # GUI implementation
+│
 └── external/
     └── imgui/                   # Dear ImGui library (for future use)
 ```
