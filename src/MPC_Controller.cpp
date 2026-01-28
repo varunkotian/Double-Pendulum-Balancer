@@ -51,7 +51,7 @@ double MPC_Controller::optimizeControl(const State& state)
     double best_torque = 0.0;
     double best_cost = simulateAndComputeCost(state, 0.0);
     
-    double step = max_torque / 100.0;
+    double step = max_torque / 10.0;
     for (double torque = -max_torque; torque <= max_torque; torque += step)
     {
         double cost = simulateAndComputeCost(state, torque);

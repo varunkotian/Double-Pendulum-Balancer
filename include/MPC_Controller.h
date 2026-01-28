@@ -21,7 +21,7 @@ public:
     double R = 0.1;              // Weight for control effort
     
     // Control constraints
-    double max_torque = 100.0;
+    double max_torque = 10.0;
 
 private:
     DoublePendulum* pendulum;
