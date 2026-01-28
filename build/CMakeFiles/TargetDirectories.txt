@@ -1,3 +1,0 @@
-D:/seadrive/Varun/My Libraries/400_Fun/MPC_basic/build/CMakeFiles/MPC_DoublePendulum.dir
-D:/seadrive/Varun/My Libraries/400_Fun/MPC_basic/build/CMakeFiles/edit_cache.dir
-D:/seadrive/Varun/My Libraries/400_Fun/MPC_basic/build/CMakeFiles/rebuild_cache.dir
